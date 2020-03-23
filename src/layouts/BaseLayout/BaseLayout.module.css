@@ -1,8 +1,10 @@
 
 .footer {
   bottom: 0;
+  height: 3em;
   left: 0;
   position: absolute;
+  text-align: center;
   width: 100%;
 }
 
@@ -11,4 +13,8 @@
 .layout {
   min-height: 100%;
   position: relative;
+}
+
+.main {
+  padding: 0 0 4em;
 }
