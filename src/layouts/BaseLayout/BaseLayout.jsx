@@ -37,6 +37,10 @@ const BaseLayout = ({
   )
 }
 
+BaseLayout.defaultProps = {
+  path: ''
+}
+
 BaseLayout.propTypes = {
   children: node,
   path: string
