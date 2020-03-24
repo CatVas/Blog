@@ -2,9 +2,11 @@
 import { BaseLayout } from 'layouts'
 import React from 'react'
 
-const HomePage = () => (
-  <BaseLayout>
-    Home page
+const HomePage = ({
+  match: { path }
+}) => (
+  <BaseLayout path={path}>
+    Home page (Landing).
   </BaseLayout>
 )
 
