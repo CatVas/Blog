@@ -1,0 +1,14 @@
+
+.drawerHandler {
+  background: #0f0;
+  color: #fff;
+  cursor: pointer;
+  height: 2em;
+  line-height: 2em;
+  margin: -1em 0 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  width: 2em;
+}

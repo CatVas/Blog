@@ -11,6 +11,7 @@
     "react-dom": "^16.13.0",
     "react-grid-system": "^6.3.0",
     "react-if": "^3.4.3",
+    "react-pretty-drawer": "^0.2.7",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0"
   },

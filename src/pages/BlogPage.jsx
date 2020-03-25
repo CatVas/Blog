@@ -1,11 +1,17 @@
 
-import { BlogLayout } from 'layouts'
+import { SidebarLayout } from 'layouts'
 import React from 'react'
 
 const BlogPage = () => (
-  <BlogLayout>
+  <SidebarLayout
+    sidebar={
+      <p>
+        Sidebar content
+      </p>
+    }
+  >
     BlogPage
-  </BlogLayout>
+  </SidebarLayout>
 )
 
 export default BlogPage
