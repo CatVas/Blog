@@ -1,16 +1,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Layouts
+## Custom UI library docs
 
-### `BaseLayout`
-A basic layout with a header and a footer. The footer is always down at the page bottom.
-
-Folder: `layouts/BaseLayout`.<br />
-URLs to see: `/`, `/blog` etc. - all through the app.
-
-Used in:
-* `pages/HomePage`;
+`Layouts`: [https://github.com/CatVas/Blog/layouts](https://github.com/CatVas/Blog/tree/dev/src/layouts)
 
 ## Available Scripts
 
