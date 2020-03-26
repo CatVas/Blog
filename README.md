@@ -5,6 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Documentation of UI components used in the app.
 
+* [Components](https://github.com/CatVas/Blog/tree/dev/src/components);
 * [Layouts](https://github.com/CatVas/Blog/tree/dev/src/layouts);
 * [Pages](https://github.com/CatVas/Blog/tree/dev/src/pages);
 
