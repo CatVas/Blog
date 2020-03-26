@@ -1,9 +1,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Custom UI library docs
+## Custom UI library
 
-`Layouts`: [https://github.com/CatVas/Blog/layouts](https://github.com/CatVas/Blog/tree/dev/src/layouts)
+Documentation of UI components used in the app.
+
+* [Layouts](https://github.com/CatVas/Blog/tree/dev/src/layouts);
 
 ## Available Scripts
 
