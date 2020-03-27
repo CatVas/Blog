@@ -11,6 +11,10 @@
 .header {
   padding: 1em 0;
 }
+.headerInner {
+  align-items: center;
+  display: flex;
+}
 
 .layout {
   min-height: 100%;
@@ -19,4 +23,9 @@
 
 .main {
   padding: 0 0 4em;
+}
+
+.menu {
+  margin: 0 0 0 1em;
+  width: 100%;
 }

@@ -1,5 +1,5 @@
 
-import { Logo } from 'components'
+import { Logo, Menu } from 'components'
 import { YEAR } from 'data/constants'
 import { node, string } from 'prop-types'
 import React from 'react'
@@ -22,9 +22,12 @@ const BaseLayout = ({
   return (
     <div className={st.layout}>
       <header className={st.header}>
-        <Container>
+        <Container className={st.headerInner}>
           {linkedLogo}
-          Menu
+          <Menu
+            className={st.menu}
+            isBurger={false}
+          />
         </Container>
       </header>
       <main className={st.main}>
