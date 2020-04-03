@@ -1,6 +1,6 @@
 
 import cn from 'classnames'
-import { DRAWER_WIDTH, MAIN_MENU_ITEMS } from 'data/constants'
+import { MAIN_MENU_ITEMS } from 'data/constants'
 import { arrayOf, bool, shape, string } from 'prop-types'
 import React, { useState } from 'react'
 import { Else, If, Then } from 'react-if'
@@ -14,7 +14,8 @@ const Menu = ({
   items
 }) => {
   const navCn = cn(st.menu, {
-    [className]: className.length > 0
+    [className]: className.length > 0,
+    [st.burger]: isBurger
   })
   const [isDrawerVisible, toggleDrawerVisible] = useState(false)
 
@@ -52,9 +53,9 @@ const Menu = ({
           {renderToggler}
           <Drawer
             closable
+            className={st.drawer}
             placement="right"
             visible={isDrawerVisible}
-            width={DRAWER_WIDTH}
             onClose={closeDrawer}
           >
             {renderItems}

@@ -8,4 +8,8 @@ export const MAIN_MENU_ITEMS = [
   }
 ]
 
+export const RESPONSIVE_POINTS = {
+  XS: 576
+}
+
 export const YEAR = new Date().getFullYear()

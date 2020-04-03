@@ -1,8 +1,9 @@
 
 import { Logo, Menu } from 'components'
-import { YEAR } from 'data/constants'
+import { RESPONSIVE_POINTS, YEAR } from 'data/constants'
 import { node, string } from 'prop-types'
 import React from 'react'
+import { useDimensions } from 'react-dimensions-hook'
 import { Container } from 'react-grid-system'
 import { Link } from 'react-router-dom'
 import st from './BaseLayout.module.css'
@@ -11,6 +12,8 @@ const BaseLayout = ({
   children,
   path
 }) => {
+  const { ref, dimensions } = useDimensions()
+  const isMenyBurger = dimensions.width < RESPONSIVE_POINTS.XS
   const linkedLogo = (path === '/') ? (
     <Logo />
   ) : (
@@ -20,13 +23,16 @@ const BaseLayout = ({
   )
 
   return (
-    <div className={st.layout}>
+    <div
+      className={st.layout}
+      ref={ref}
+    >
       <header className={st.header}>
         <Container className={st.headerInner}>
           {linkedLogo}
           <Menu
             className={st.menu}
-            isBurger={false}
+            isBurger={isMenyBurger}
           />
         </Container>
       </header>
