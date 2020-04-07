@@ -26,3 +26,7 @@ ol, ul {
   margin: 0;
   padding: 0;
 }
+
+.noMarginTop {
+  margin-top: 0;
+}

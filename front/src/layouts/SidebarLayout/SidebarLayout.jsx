@@ -41,7 +41,9 @@ const SidebarLayout = ({
           width="300px"
           onClose={handleDrawerClose}
         >
-          {sidebar}
+          <div className={st.drawerContent}>
+            {sidebar}
+          </div>
         </Drawer>
         <span
           className={st.drawerHandler}
